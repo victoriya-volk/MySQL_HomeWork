@@ -55,5 +55,4 @@ WHERE product_name LIKE '%[0-9]%';
 # 4.4 
 SELECT *
 FROM smart_phone
-WHERE product_name LIKE '%8%';
-
+WHERE product_name RLIKE '8';
